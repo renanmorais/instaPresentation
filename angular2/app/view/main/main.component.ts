@@ -14,7 +14,7 @@ import {Router} from "angular2/router";
 
 export class MainComponent {
 
-    private hashtag:String ;
+    private hashtag:String = 'joincommunity2016'';
 
     constructor(private picService:PicService, private router:Router) {
         this.picService = picService;

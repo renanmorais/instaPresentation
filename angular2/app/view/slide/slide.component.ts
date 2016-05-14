@@ -90,7 +90,7 @@ export class SlideComponent {
         console.log('slideShow()');
         this.interval = setInterval(() => {
             this.slideShowStart()
-        }, 1000);
+        }, 5000);
     }
 
     slideShowStart() {
